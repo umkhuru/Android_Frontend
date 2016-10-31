@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.ethon.car_service_station.JobListActivity">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:text="@string/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="45sp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_below="@+id/appTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:id="@+id/jobLabel"
+        android:text="@string/app_name"
+        android:textSize="40sp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/jobLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jobDate"
+        android:text="@string/app_title"/>
+
+    <Button
+        android:id="@+id/takeJobBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/take_job"
+        android:background="#14F197"
+        android:textColor="#000000"/>
+
+
+</RelativeLayout>
